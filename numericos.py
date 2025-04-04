@@ -1,3 +1,5 @@
+import random
+
 numero_entero = 5
 
 numero_decimal = 5.14
@@ -31,7 +33,7 @@ print(numero3) # imprime 5.14+0j
 
 # numeros random
 
-import random
+
 
 n_ramdom = random.randrange(0,50,10)
 print(n_ramdom) # imprime numeros aleatorios de 10 en 10 entre el 0 y 50
