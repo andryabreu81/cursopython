@@ -1,4 +1,7 @@
 # bucles loops con for
+from pydoc import text
+
+
 print('ejemplos de bucles con for')
 
 for i in range(1, 11):
@@ -51,3 +54,22 @@ for lenguaje in lenguajes:
         continue
     print(f'{z}. Lenguaje: {lenguaje}')
     z += 1 # incrementa en 1 a z
+
+
+# ejemplo para recorrer un string
+print('recorrido de un string')
+text = 'esto es un script de pruebas con un for'
+
+# imprime cada letra del string incluyendo espacios vacios
+for letra in text:
+    print(f'letra: {letra}')
+
+# ejemplo de un for dentro de otro for
+letras = ['a', 'b', 'c']
+numeros = [1, 2, 3]
+
+# imprime todos lo numeros por cada letra
+for l in letras:
+    for n in numeros:
+        print(f'letra: {l} numero: {n}')
+        
