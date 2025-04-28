@@ -74,3 +74,16 @@ for i in range(len(vehiculos)):
 
 # shorthands
 [print(vehiculo) for vehiculo in vehiculos]
+
+#union de tuplas
+print('# . union de tuplas')
+tupla1 = ('naranjas', 'manzanas', 'peras')
+tupla2 = ('kiwis', 'mangos')
+tupla3 = tupla1 + tupla2
+print(tupla3)# imprime la tupla
+# multiplicacion de tuplas
+print('# . multiplicacion de tuplas')
+tupla1 = ('naranjas', 'manzanas', 'peras')
+tupla2 = ('kiwis', 'mangos')
+tupla3 = tupla1 * 2
+print(tupla3)# imprime la tupla
