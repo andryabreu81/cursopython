@@ -52,6 +52,10 @@ vehiculos = ('bicicleta','moto','avion','barco','yate','ferri','camion')
 (a,b,c,d,e,f,g) = vehiculos
 print(a)# imprime la tupla
 
+# *dosruedas une los dos primeros valores de vehiculos a dos ruedas
+# y el resto de los valores a la variable vehiculos
+# *dosruedas = vehiculos[0:2]
+# *dosruedas = vehiculos[2:]
 (*dosruedas,avion,barco,yate,ferri,camion) = vehiculos
 print(dosruedas)# imprime la tupla
 
