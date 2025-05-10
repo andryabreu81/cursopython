@@ -61,12 +61,12 @@ print(consDiccionario2)
 
 # agregar un elemento a una lista dentro de un diccionario
 print('7.1 agregar un elemento a una lista dentro de un diccionario')
-consDiccionario2['tecnologias'].append('java')
-print(consDiccionario2)
+diccionario['tecnologias'].append('java')
+print(diccionario)
 # agregar un elemento a un diccionario dentro de un diccionario
 print('7.2 agregar un elemento a un diccionario dentro de un diccionario')
-consDiccionario2['direccion']['ciudad'] = 'Caracas'
-print(consDiccionario2)
+diccionario['direccion']['ciudad'] = 'Caracas'
+print(diccionario)
 
 # eliminar elementos de un diccionario
 print('8. eliminar elementos de un diccionario')
